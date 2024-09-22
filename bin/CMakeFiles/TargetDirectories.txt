@@ -1,0 +1,8 @@
+C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/libdeflate_static.dir
+C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/libdeflate_shared.dir
+C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/INSTALL.dir
+C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/ALL_BUILD.dir
+C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Title/source/repos/libdeflate/bin/programs/CMakeFiles/libdeflate_prog_utils.dir
+C:/Users/Title/source/repos/libdeflate/bin/programs/CMakeFiles/libdeflate-gzip.dir
+C:/Users/Title/source/repos/libdeflate/bin/programs/CMakeFiles/INSTALL.dir

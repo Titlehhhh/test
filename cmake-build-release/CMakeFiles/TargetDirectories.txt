@@ -1,0 +1,16 @@
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/libdeflate_static.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/libdeflate_shared.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/rebuild_cache.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/list_install_components.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/install.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/install/local.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/install/strip.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/programs/CMakeFiles/libdeflate_prog_utils.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/programs/CMakeFiles/libdeflate-gzip.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/programs/CMakeFiles/edit_cache.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/programs/CMakeFiles/rebuild_cache.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/programs/CMakeFiles/list_install_components.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/programs/CMakeFiles/install.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/programs/CMakeFiles/install/local.dir
+C:/Users/Title/source/repos/libdeflate/cmake-build-release/programs/CMakeFiles/install/strip.dir

@@ -1,0 +1,108 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-624280c8c859f927e9f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "programs",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-programs-Release-974008a5d40213da30e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "programs",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "libdeflate",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "libdeflate-gzip::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-libdeflate-gzip-Release-782259ab280498865cb8.json",
+					"name" : "libdeflate-gzip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libdeflate_prog_utils::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-libdeflate_prog_utils-Release-db6dab730463532bab63.json",
+					"name" : "libdeflate_prog_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libdeflate_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libdeflate_shared-Release-c0b1c8ad512f8bf0369d.json",
+					"name" : "libdeflate_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libdeflate_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libdeflate_static-Release-e0c6b0dbc3737b91bb59.json",
+					"name" : "libdeflate_static",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Title/source/repos/libdeflate/cmake-build-release",
+		"source" : "C:/Users/Title/source/repos/libdeflate"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

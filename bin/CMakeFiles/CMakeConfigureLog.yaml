@@ -1,0 +1,937 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:22 (project)"
+    message: |
+      The target system is: Linux -  - arm
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:22 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/devel/gcc-4.7-linaro-rpi-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+      Сборка начата 22.09.2024 21:20:55.
+      
+      Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.84
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/3.30.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:22 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-ysq64g"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-ysq64g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-ysq64g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ad0c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:20:56.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-ysq64g\\cmTC_ad0c5.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ad0c5.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-ysq64g\\Debug\\".
+          Создание каталога "cmTC_ad0c5.dir\\Debug\\cmTC_ad0c5.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ad0c5.dir\\Debug\\cmTC_ad0c5.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ad0c5.dir\\Debug\\cmTC_ad0c5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad0c5.dir\\Debug\\\\" /Fd"cmTC_ad0c5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad0c5.dir\\Debug\\\\" /Fd"cmTC_ad0c5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-ysq64g\\Debug\\cmTC_ad0c5." /INCREMENTAL /ILK:"cmTC_ad0c5.dir\\Debug\\cmTC_ad0c5.ilk" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-ysq64g/Debug/cmTC_ad0c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-ysq64g\\Debug\\cmTC_ad0c5.lib" /MACHINE:X64 cmTC_ad0c5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ad0c5.vcxproj -> C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-ysq64g\\Debug\\cmTC_ad0c5
+        FinalizeBuildStatus:
+          Файл "cmTC_ad0c5.dir\\Debug\\cmTC_ad0c5.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_ad0c5.dir\\Debug\\cmTC_ad0c5.tlog\\cmTC_ad0c5.lastbuildstate".
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-ysq64g\\cmTC_ad0c5.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.98
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:22 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:22 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:67 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WDECLARATION_AFTER_STATEMENT"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-kypvp4"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-kypvp4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WDECLARATION_AFTER_STATEMENT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-kypvp4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_452c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:20:58.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-kypvp4\\cmTC_452c4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_452c4.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-kypvp4\\Debug\\".
+          Создание каталога "cmTC_452c4.dir\\Debug\\cmTC_452c4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_452c4.dir\\Debug\\cmTC_452c4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_452c4.dir\\Debug\\cmTC_452c4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WDECLARATION_AFTER_STATEMENT /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_452c4.dir\\Debug\\\\" /Fd"cmTC_452c4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wdeclaration-after-statement "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-kypvp4\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WDECLARATION_AFTER_STATEMENT /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_452c4.dir\\Debug\\\\" /Fd"cmTC_452c4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wdeclaration-after-statement "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-kypvp4\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wdeclaration-after-statement" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-kypvp4\\cmTC_452c4.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-kypvp4\\cmTC_452c4.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-kypvp4\\cmTC_452c4.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wdeclaration-after-statement" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-kypvp4\\cmTC_452c4.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:68 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WIMPLICIT_FALLTHROUGH"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-uhkvua"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-uhkvua"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WIMPLICIT_FALLTHROUGH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-uhkvua'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_51ac4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:20:59.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-uhkvua\\cmTC_51ac4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_51ac4.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-uhkvua\\Debug\\".
+          Создание каталога "cmTC_51ac4.dir\\Debug\\cmTC_51ac4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_51ac4.dir\\Debug\\cmTC_51ac4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_51ac4.dir\\Debug\\cmTC_51ac4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WIMPLICIT_FALLTHROUGH /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51ac4.dir\\Debug\\\\" /Fd"cmTC_51ac4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wimplicit-fallthrough "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-uhkvua\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WIMPLICIT_FALLTHROUGH /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51ac4.dir\\Debug\\\\" /Fd"cmTC_51ac4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wimplicit-fallthrough "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-uhkvua\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wimplicit-fallthrough" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-uhkvua\\cmTC_51ac4.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-uhkvua\\cmTC_51ac4.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-uhkvua\\cmTC_51ac4.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wimplicit-fallthrough" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-uhkvua\\cmTC_51ac4.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.51
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:69 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WMISSING_FIELD_INITIALIZERS"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-h5aw6t"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-h5aw6t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WMISSING_FIELD_INITIALIZERS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-h5aw6t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ba71a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:20:59.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-h5aw6t\\cmTC_ba71a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ba71a.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-h5aw6t\\Debug\\".
+          Создание каталога "cmTC_ba71a.dir\\Debug\\cmTC_ba71a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ba71a.dir\\Debug\\cmTC_ba71a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ba71a.dir\\Debug\\cmTC_ba71a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WMISSING_FIELD_INITIALIZERS /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba71a.dir\\Debug\\\\" /Fd"cmTC_ba71a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wmissing-field-initializers "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-h5aw6t\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WMISSING_FIELD_INITIALIZERS /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba71a.dir\\Debug\\\\" /Fd"cmTC_ba71a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wmissing-field-initializers "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-h5aw6t\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wmissing-field-initializers" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-h5aw6t\\cmTC_ba71a.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-h5aw6t\\cmTC_ba71a.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-h5aw6t\\cmTC_ba71a.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wmissing-field-initializers" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-h5aw6t\\cmTC_ba71a.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.49
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:70 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WMISSING_PROTOTYPES"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-pzvmv8"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-pzvmv8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WMISSING_PROTOTYPES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-pzvmv8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aefcd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:00.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pzvmv8\\cmTC_aefcd.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_aefcd.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pzvmv8\\Debug\\".
+          Создание каталога "cmTC_aefcd.dir\\Debug\\cmTC_aefcd.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_aefcd.dir\\Debug\\cmTC_aefcd.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_aefcd.dir\\Debug\\cmTC_aefcd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WMISSING_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aefcd.dir\\Debug\\\\" /Fd"cmTC_aefcd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wmissing-prototypes "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pzvmv8\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WMISSING_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aefcd.dir\\Debug\\\\" /Fd"cmTC_aefcd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wmissing-prototypes "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pzvmv8\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wmissing-prototypes" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pzvmv8\\cmTC_aefcd.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pzvmv8\\cmTC_aefcd.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pzvmv8\\cmTC_aefcd.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wmissing-prototypes" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-pzvmv8\\cmTC_aefcd.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:71 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WPEDANTIC"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-3njyhs"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-3njyhs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WPEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-3njyhs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4d6aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:01.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3njyhs\\cmTC_4d6aa.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_4d6aa.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3njyhs\\Debug\\".
+          Создание каталога "cmTC_4d6aa.dir\\Debug\\cmTC_4d6aa.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_4d6aa.dir\\Debug\\cmTC_4d6aa.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_4d6aa.dir\\Debug\\cmTC_4d6aa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WPEDANTIC /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d6aa.dir\\Debug\\\\" /Fd"cmTC_4d6aa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wpedantic "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3njyhs\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WPEDANTIC /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d6aa.dir\\Debug\\\\" /Fd"cmTC_4d6aa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wpedantic "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3njyhs\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wpedantic" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3njyhs\\cmTC_4d6aa.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3njyhs\\cmTC_4d6aa.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3njyhs\\cmTC_4d6aa.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wpedantic" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-3njyhs\\cmTC_4d6aa.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:72 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WSHADOW"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-xpuul8"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-xpuul8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-xpuul8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1d0d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:02.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-xpuul8\\cmTC_1d0d5.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_1d0d5.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-xpuul8\\Debug\\".
+          Создание каталога "cmTC_1d0d5.dir\\Debug\\cmTC_1d0d5.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_1d0d5.dir\\Debug\\cmTC_1d0d5.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_1d0d5.dir\\Debug\\cmTC_1d0d5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WSHADOW /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d0d5.dir\\Debug\\\\" /Fd"cmTC_1d0d5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wshadow "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-xpuul8\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WSHADOW /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d0d5.dir\\Debug\\\\" /Fd"cmTC_1d0d5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wshadow "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-xpuul8\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wshadow" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-xpuul8\\cmTC_1d0d5.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-xpuul8\\cmTC_1d0d5.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-xpuul8\\cmTC_1d0d5.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wshadow" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-xpuul8\\cmTC_1d0d5.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:73 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WSTRICT_PROTOTYPES"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-eh216k"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-eh216k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WSTRICT_PROTOTYPES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-eh216k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4c27a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:03.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-eh216k\\cmTC_4c27a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_4c27a.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-eh216k\\Debug\\".
+          Создание каталога "cmTC_4c27a.dir\\Debug\\cmTC_4c27a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_4c27a.dir\\Debug\\cmTC_4c27a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_4c27a.dir\\Debug\\cmTC_4c27a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WSTRICT_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c27a.dir\\Debug\\\\" /Fd"cmTC_4c27a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wstrict-prototypes "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-eh216k\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WSTRICT_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c27a.dir\\Debug\\\\" /Fd"cmTC_4c27a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wstrict-prototypes "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-eh216k\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wstrict-prototypes" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-eh216k\\cmTC_4c27a.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-eh216k\\cmTC_4c27a.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-eh216k\\cmTC_4c27a.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wstrict-prototypes" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-eh216k\\cmTC_4c27a.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:74 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WUNDEF"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-c0mfrj"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-c0mfrj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WUNDEF"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-c0mfrj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_efa72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:03.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-c0mfrj\\cmTC_efa72.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_efa72.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-c0mfrj\\Debug\\".
+          Создание каталога "cmTC_efa72.dir\\Debug\\cmTC_efa72.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_efa72.dir\\Debug\\cmTC_efa72.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_efa72.dir\\Debug\\cmTC_efa72.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WUNDEF /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efa72.dir\\Debug\\\\" /Fd"cmTC_efa72.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wundef "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-c0mfrj\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WUNDEF /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efa72.dir\\Debug\\\\" /Fd"cmTC_efa72.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wundef "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-c0mfrj\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wundef" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-c0mfrj\\cmTC_efa72.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-c0mfrj\\cmTC_efa72.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-c0mfrj\\cmTC_efa72.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wundef" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-c0mfrj\\cmTC_efa72.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:75 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WVLA"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-nrxi0w"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-nrxi0w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_WVLA"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-nrxi0w'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9cd2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:04.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-nrxi0w\\cmTC_9cd2e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_9cd2e.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-nrxi0w\\Debug\\".
+          Создание каталога "cmTC_9cd2e.dir\\Debug\\cmTC_9cd2e.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_9cd2e.dir\\Debug\\cmTC_9cd2e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_9cd2e.dir\\Debug\\cmTC_9cd2e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WVLA /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cd2e.dir\\Debug\\\\" /Fd"cmTC_9cd2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wvla "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-nrxi0w\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_WVLA /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cd2e.dir\\Debug\\\\" /Fd"cmTC_9cd2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wvla "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-nrxi0w\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wvla" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-nrxi0w\\cmTC_9cd2e.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-nrxi0w\\cmTC_9cd2e.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-nrxi0w\\cmTC_9cd2e.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wvla" [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-nrxi0w\\cmTC_9cd2e.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.45
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "programs/CMakeLists.txt:13 (check_symbol_exists)"
+    checks:
+      - "Looking for clock_gettime"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-wsmqtg"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-wsmqtg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-wsmqtg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_99989.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:05.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\cmTC_99989.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_99989.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\Debug\\".
+          Создание каталога "cmTC_99989.dir\\Debug\\cmTC_99989.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_99989.dir\\Debug\\cmTC_99989.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_99989.dir\\Debug\\cmTC_99989.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99989.dir\\Debug\\\\" /Fd"cmTC_99989.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\CheckSymbolExists.c"
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99989.dir\\Debug\\\\" /Fd"cmTC_99989.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\CheckSymbolExists.c(8,19): error C2065: clock_gettime: необъявленный идентификатор [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\cmTC_99989.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\cmTC_99989.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\cmTC_99989.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\CheckSymbolExists.c(8,19): error C2065: clock_gettime: необъявленный идентификатор [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-wsmqtg\\cmTC_99989.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "programs/CMakeLists.txt:14 (check_symbol_exists)"
+    checks:
+      - "Looking for futimens"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-bmxome"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-bmxome"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_FUTIMENS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-bmxome'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_55a00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:06.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\cmTC_55a00.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_55a00.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\Debug\\".
+          Создание каталога "cmTC_55a00.dir\\Debug\\cmTC_55a00.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_55a00.dir\\Debug\\cmTC_55a00.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_55a00.dir\\Debug\\cmTC_55a00.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55a00.dir\\Debug\\\\" /Fd"cmTC_55a00.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\CheckSymbolExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55a00.dir\\Debug\\\\" /Fd"cmTC_55a00.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\CheckSymbolExists.c(9,19): error C2065: futimens: необъявленный идентификатор [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\cmTC_55a00.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\cmTC_55a00.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\cmTC_55a00.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\CheckSymbolExists.c(9,19): error C2065: futimens: необъявленный идентификатор [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-bmxome\\cmTC_55a00.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.64
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "programs/CMakeLists.txt:15 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_fadvise"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-htqguk"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-htqguk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_POSIX_FADVISE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-htqguk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_13419.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:07.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\cmTC_13419.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_13419.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\Debug\\".
+          Создание каталога "cmTC_13419.dir\\Debug\\cmTC_13419.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_13419.dir\\Debug\\cmTC_13419.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_13419.dir\\Debug\\cmTC_13419.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13419.dir\\Debug\\\\" /Fd"cmTC_13419.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\CheckSymbolExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13419.dir\\Debug\\\\" /Fd"cmTC_13419.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\CheckSymbolExists.c(8,19): error C2065: posix_fadvise: необъявленный идентификатор [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\cmTC_13419.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\cmTC_13419.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\cmTC_13419.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\CheckSymbolExists.c(8,19): error C2065: posix_fadvise: необъявленный идентификатор [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-htqguk\\cmTC_13419.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.51
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "programs/CMakeLists.txt:16 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_madvise"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-vp3qkn"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-vp3qkn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_POSIX_MADVISE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-vp3qkn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6cfb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:08.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\cmTC_6cfb0.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_6cfb0.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\Debug\\".
+          Создание каталога "cmTC_6cfb0.dir\\Debug\\cmTC_6cfb0.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_6cfb0.dir\\Debug\\cmTC_6cfb0.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_6cfb0.dir\\Debug\\cmTC_6cfb0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6cfb0.dir\\Debug\\\\" /Fd"cmTC_6cfb0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\CheckSymbolExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6cfb0.dir\\Debug\\\\" /Fd"cmTC_6cfb0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\CheckSymbolExists.c(2,10): error C1083: Не удается открыть файл включение: sys/mman.h: No such file or directory, [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\cmTC_6cfb0.vcxproj]
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\cmTC_6cfb0.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\cmTC_6cfb0.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\CheckSymbolExists.c(2,10): error C1083: Не удается открыть файл включение: sys/mman.h: No such file or directory, [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-vp3qkn\\cmTC_6cfb0.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.50
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "programs/CMakeLists.txt:17 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_STAT_NANOSECOND_PRECISION"
+    directories:
+      source: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-qodqah"
+      binary: "C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-qodqah"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/home/devel/rasp-pi-rootfs"
+    buildResult:
+      variable: "HAVE_STAT_NANOSECOND_PRECISION"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/bin/CMakeFiles/CMakeScratch/TryCompile-qodqah'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1a930.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.10.4+10fbfbf2e для .NET Framework
+        Сборка начата 22.09.2024 21:21:09.
+        
+        Проект "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\cmTC_1a930.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_1a930.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\Debug\\".
+          Создание каталога "cmTC_1a930.dir\\Debug\\cmTC_1a930.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_1a930.dir\\Debug\\cmTC_1a930.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_1a930.dir\\Debug\\cmTC_1a930.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_STAT_NANOSECOND_PRECISION /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a930.dir\\Debug\\\\" /Fd"cmTC_1a930.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.40.33811 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /W1 /WX- /diagnostics:column /D _MBCS /D HAVE_STAT_NANOSECOND_PRECISION /D _GNU_SOURCE /D _POSIX_C_SOURCE=200809L /D "CMAKE_INTDIR=\\"Debug\\"" /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a930.dir\\Debug\\\\" /Fd"cmTC_1a930.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\src.c"
+          src.c
+        C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\src.c(3,64): error C2039: "st_atim": не является членом "stat". [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\cmTC_1a930.vcxproj]
+              C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\sys\\stat.h(87,12):
+               см. объявление "stat"
+          
+        Сборка проекта "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\cmTC_1a930.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\cmTC_1a930.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\src.c(3,64): error C2039: "st_atim": не является членом "stat". [C:\\Users\\Title\\source\\repos\\libdeflate\\bin\\CMakeFiles\\CMakeScratch\\TryCompile-qodqah\\cmTC_1a930.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.50
+        
+      exitCode: 1
+...

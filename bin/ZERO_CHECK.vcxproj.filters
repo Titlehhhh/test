@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Title\source\repos\libdeflate\bin\CMakeFiles\453b530df7979801fdf70e9be73b06b9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C1068BB3-CAD6-3352-AB32-6361CE5C6775}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
