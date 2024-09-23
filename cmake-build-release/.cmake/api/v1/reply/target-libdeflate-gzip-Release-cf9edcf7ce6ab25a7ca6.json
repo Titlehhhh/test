@@ -195,12 +195,12 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "programs\\libdeflate_prog_utils.a",
+				"fragment" : "libdeflate_prog_utils.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "libdeflate.a",
+				"fragment" : "..\\libdeflate.a",
 				"role" : "libraries"
 			},
 			{

@@ -1,0 +1,3 @@
+C:\Users\Title\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\libdeflate-gzip.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\libdeflate-gzip.dir/objects.a @CMakeFiles\libdeflate-gzip.dir\objects1.rsp
+C:\msys64\mingw64\bin\cc.exe -O2 -DNDEBUG -Wl,--whole-archive CMakeFiles\libdeflate-gzip.dir/objects.a -Wl,--no-whole-archive -o libdeflate-gzip.exe -Wl,--out-implib,liblibdeflate-gzip.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\libdeflate-gzip.dir\linkLibs.rsp

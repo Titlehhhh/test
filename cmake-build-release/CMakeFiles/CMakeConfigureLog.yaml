@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-a8ea0r"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-a8ea0r"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4usv4i"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4usv4i"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -49,10 +49,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-a8ea0r'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4usv4i'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d1273
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj -c C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ddda2/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ddda2.dir\\build.make CMakeFiles/cmTC_ddda2.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4usv4i'
+        Building C object CMakeFiles/cmTC_ddda2.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\cc.exe
         Target: x86_64-w64-mingw32
@@ -60,8 +63,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.0 (Rev3, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d1273.dir/'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d1273.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\Title\\AppData\\Local\\Temp\\ccdguA61.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ddda2.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_ddda2.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\Title\\AppData\\Local\\Temp\\cc38n36T.s
         GNU C17 (Rev3, Built by MSYS2 project) version 13.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -80,13 +83,17 @@ events:
          C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
         End of search list.
         Compiler executable checksum: c05f637ad9517c47d7f1166223d83059
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d1273.dir/'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj C:\\Users\\Title\\AppData\\Local\\Temp\\ccdguA61.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ddda2.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Title\\AppData\\Local\\Temp\\cc38n36T.s
         GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj -o cmTC_d1273.exe -Wl,--out-implib,libcmTC_d1273.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_ddda2.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ddda2.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ddda2.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ddda2.dir/objects.a @CMakeFiles\\cmTC_ddda2.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_ddda2.dir/objects.a -Wl,--no-whole-archive -o cmTC_ddda2.exe -Wl,--out-implib,libcmTC_ddda2.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\cc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
@@ -97,12 +104,13 @@ events:
         gcc version 13.2.0 (Rev3, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1273.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d1273.'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccY3mgfg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d1273.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d1273.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ddda2.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ddda2.'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccCgfWck.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ddda2.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ddda2.dir/objects.a --no-whole-archive --out-implib libcmTC_ddda2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
         collect2 version 13.2.0
-        C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccY3mgfg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d1273.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d1273.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d
-        GNU ld (GNU Binutils) 2.41\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1273.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d1273.'\x0d
+        C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccCgfWck.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ddda2.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ddda2.dir/objects.a --no-whole-archive --out-implib libcmTC_ddda2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ddda2.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ddda2.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4usv4i'
         
       exitCode: 0
   -
@@ -135,10 +143,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-a8ea0r']
+        ignore line: [Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4usv4i']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d1273]
-        ignore line: [[1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj -c C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ddda2/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ddda2.dir\\build.make CMakeFiles/cmTC_ddda2.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4usv4i']
+        ignore line: [Building C object CMakeFiles/cmTC_ddda2.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\cc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -146,8 +157,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.0 (Rev3  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d1273.dir/']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d1273.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\Title\\AppData\\Local\\Temp\\ccdguA61.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ddda2.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_ddda2.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\Title\\AppData\\Local\\Temp\\cc38n36T.s]
         ignore line: [GNU C17 (Rev3  Built by MSYS2 project) version 13.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -166,8 +177,8 @@ events:
         ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c05f637ad9517c47d7f1166223d83059]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d1273.dir/']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj C:\\Users\\Title\\AppData\\Local\\Temp\\ccdguA61.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ddda2.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Title\\AppData\\Local\\Temp\\cc38n36T.s]
         ignore line: [GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41]
         ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
@@ -178,8 +189,12 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj -o cmTC_d1273.exe -Wl --out-implib libcmTC_d1273.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_ddda2.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_ddda2.exe]
+        ignore line: [C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ddda2.dir\\link.txt --verbose=1]
+        ignore line: [C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ddda2.dir/objects.a]
+        ignore line: [C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ddda2.dir/objects.a @CMakeFiles\\cmTC_ddda2.dir\\objects1.rsp]
+        ignore line: [C:\\msys64\\mingw64\\bin\\cc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_ddda2.dir/objects.a -Wl --no-whole-archive -o cmTC_ddda2.exe -Wl --out-implib libcmTC_ddda2.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\cc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
@@ -197,13 +212,13 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1273.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d1273.']
-        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccY3mgfg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d1273.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d1273.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ddda2.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ddda2.']
+        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccCgfWck.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ddda2.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ddda2.dir/objects.a --no-whole-archive --out-implib libcmTC_ddda2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccY3mgfg.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccCgfWck.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -227,7 +242,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_d1273.exe] ==> ignore
+          arg [cmTC_ddda2.exe] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
@@ -237,9 +252,11 @@ events:
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_ddda2.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_d1273.dll.a] ==> ignore
+          arg [libcmTC_ddda2.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -266,7 +283,7 @@ events:
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
         ignore line: [collect2 version 13.2.0]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccY3mgfg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d1273.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v CMakeFiles/cmTC_d1273.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d1273.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d]
+        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Title\\AppData\\Local\\Temp\\ccCgfWck.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ddda2.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ddda2.dir/objects.a --no-whole-archive --out-implib libcmTC_ddda2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
         linker tool for 'C': C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -308,8 +325,8 @@ events:
     checks:
       - "Performing Test HAVE_WDECLARATION_AFTER_STATEMENT"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-dzpnf0"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-dzpnf0"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-9weosr"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-9weosr"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -318,11 +335,19 @@ events:
       variable: "HAVE_WDECLARATION_AFTER_STATEMENT"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-dzpnf0'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-9weosr'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_9ae7f
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WDECLARATION_AFTER_STATEMENT  -fdiagnostics-color=always   -Wdeclaration-after-statement -o CMakeFiles/cmTC_9ae7f.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-dzpnf0/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_9ae7f.dir/src.c.obj -o cmTC_9ae7f.exe -Wl,--out-implib,libcmTC_9ae7f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_407b2/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_407b2.dir\\build.make CMakeFiles/cmTC_407b2.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-9weosr'
+        Building C object CMakeFiles/cmTC_407b2.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WDECLARATION_AFTER_STATEMENT  -fdiagnostics-color=always   -Wdeclaration-after-statement -o CMakeFiles\\cmTC_407b2.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-9weosr\\src.c
+        Linking C executable cmTC_407b2.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_407b2.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_407b2.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_407b2.dir/objects.a @CMakeFiles\\cmTC_407b2.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_407b2.dir/objects.a -Wl,--no-whole-archive -o cmTC_407b2.exe -Wl,--out-implib,libcmTC_407b2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_407b2.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-9weosr'
         
       exitCode: 0
   -
@@ -335,8 +360,8 @@ events:
     checks:
       - "Performing Test HAVE_WIMPLICIT_FALLTHROUGH"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-7k5r3z"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-7k5r3z"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-abg0w4"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-abg0w4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -345,11 +370,19 @@ events:
       variable: "HAVE_WIMPLICIT_FALLTHROUGH"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-7k5r3z'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-abg0w4'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_b2161
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WIMPLICIT_FALLTHROUGH  -fdiagnostics-color=always   -Wimplicit-fallthrough -o CMakeFiles/cmTC_b2161.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-7k5r3z/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_b2161.dir/src.c.obj -o cmTC_b2161.exe -Wl,--out-implib,libcmTC_b2161.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_11f4c/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_11f4c.dir\\build.make CMakeFiles/cmTC_11f4c.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-abg0w4'
+        Building C object CMakeFiles/cmTC_11f4c.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WIMPLICIT_FALLTHROUGH  -fdiagnostics-color=always   -Wimplicit-fallthrough -o CMakeFiles\\cmTC_11f4c.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-abg0w4\\src.c
+        Linking C executable cmTC_11f4c.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_11f4c.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_11f4c.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_11f4c.dir/objects.a @CMakeFiles\\cmTC_11f4c.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_11f4c.dir/objects.a -Wl,--no-whole-archive -o cmTC_11f4c.exe -Wl,--out-implib,libcmTC_11f4c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_11f4c.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-abg0w4'
         
       exitCode: 0
   -
@@ -362,8 +395,8 @@ events:
     checks:
       - "Performing Test HAVE_WMISSING_FIELD_INITIALIZERS"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xqhq20"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xqhq20"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-gek46z"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-gek46z"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -372,11 +405,19 @@ events:
       variable: "HAVE_WMISSING_FIELD_INITIALIZERS"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xqhq20'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-gek46z'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_e2dcf
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WMISSING_FIELD_INITIALIZERS  -fdiagnostics-color=always   -Wmissing-field-initializers -o CMakeFiles/cmTC_e2dcf.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xqhq20/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_e2dcf.dir/src.c.obj -o cmTC_e2dcf.exe -Wl,--out-implib,libcmTC_e2dcf.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7d9a7/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7d9a7.dir\\build.make CMakeFiles/cmTC_7d9a7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-gek46z'
+        Building C object CMakeFiles/cmTC_7d9a7.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WMISSING_FIELD_INITIALIZERS  -fdiagnostics-color=always   -Wmissing-field-initializers -o CMakeFiles\\cmTC_7d9a7.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-gek46z\\src.c
+        Linking C executable cmTC_7d9a7.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7d9a7.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_7d9a7.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_7d9a7.dir/objects.a @CMakeFiles\\cmTC_7d9a7.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_7d9a7.dir/objects.a -Wl,--no-whole-archive -o cmTC_7d9a7.exe -Wl,--out-implib,libcmTC_7d9a7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_7d9a7.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-gek46z'
         
       exitCode: 0
   -
@@ -389,8 +430,8 @@ events:
     checks:
       - "Performing Test HAVE_WMISSING_PROTOTYPES"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4pxgdx"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4pxgdx"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-e7d7pn"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-e7d7pn"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -399,11 +440,19 @@ events:
       variable: "HAVE_WMISSING_PROTOTYPES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4pxgdx'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-e7d7pn'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_17e56
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WMISSING_PROTOTYPES  -fdiagnostics-color=always   -Wmissing-prototypes -o CMakeFiles/cmTC_17e56.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4pxgdx/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_17e56.dir/src.c.obj -o cmTC_17e56.exe -Wl,--out-implib,libcmTC_17e56.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7ab06/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7ab06.dir\\build.make CMakeFiles/cmTC_7ab06.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-e7d7pn'
+        Building C object CMakeFiles/cmTC_7ab06.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WMISSING_PROTOTYPES  -fdiagnostics-color=always   -Wmissing-prototypes -o CMakeFiles\\cmTC_7ab06.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-e7d7pn\\src.c
+        Linking C executable cmTC_7ab06.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7ab06.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_7ab06.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_7ab06.dir/objects.a @CMakeFiles\\cmTC_7ab06.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_7ab06.dir/objects.a -Wl,--no-whole-archive -o cmTC_7ab06.exe -Wl,--out-implib,libcmTC_7ab06.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_7ab06.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-e7d7pn'
         
       exitCode: 0
   -
@@ -416,8 +465,8 @@ events:
     checks:
       - "Performing Test HAVE_WPEDANTIC"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-1ksqrj"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-1ksqrj"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-pinwdk"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-pinwdk"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -426,11 +475,19 @@ events:
       variable: "HAVE_WPEDANTIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-1ksqrj'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-pinwdk'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_451ef
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WPEDANTIC  -fdiagnostics-color=always   -Wpedantic -o CMakeFiles/cmTC_451ef.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-1ksqrj/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_451ef.dir/src.c.obj -o cmTC_451ef.exe -Wl,--out-implib,libcmTC_451ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d3b02/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d3b02.dir\\build.make CMakeFiles/cmTC_d3b02.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-pinwdk'
+        Building C object CMakeFiles/cmTC_d3b02.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WPEDANTIC  -fdiagnostics-color=always   -Wpedantic -o CMakeFiles\\cmTC_d3b02.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-pinwdk\\src.c
+        Linking C executable cmTC_d3b02.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d3b02.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d3b02.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_d3b02.dir/objects.a @CMakeFiles\\cmTC_d3b02.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_d3b02.dir/objects.a -Wl,--no-whole-archive -o cmTC_d3b02.exe -Wl,--out-implib,libcmTC_d3b02.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_d3b02.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-pinwdk'
         
       exitCode: 0
   -
@@ -443,8 +500,8 @@ events:
     checks:
       - "Performing Test HAVE_WSHADOW"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-0qzma0"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-0qzma0"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-kb5xom"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-kb5xom"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -453,11 +510,19 @@ events:
       variable: "HAVE_WSHADOW"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-0qzma0'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-kb5xom'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_b8b0a
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WSHADOW  -fdiagnostics-color=always   -Wshadow -o CMakeFiles/cmTC_b8b0a.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-0qzma0/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_b8b0a.dir/src.c.obj -o cmTC_b8b0a.exe -Wl,--out-implib,libcmTC_b8b0a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6ae82/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6ae82.dir\\build.make CMakeFiles/cmTC_6ae82.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-kb5xom'
+        Building C object CMakeFiles/cmTC_6ae82.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WSHADOW  -fdiagnostics-color=always   -Wshadow -o CMakeFiles\\cmTC_6ae82.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-kb5xom\\src.c
+        Linking C executable cmTC_6ae82.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6ae82.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_6ae82.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_6ae82.dir/objects.a @CMakeFiles\\cmTC_6ae82.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_6ae82.dir/objects.a -Wl,--no-whole-archive -o cmTC_6ae82.exe -Wl,--out-implib,libcmTC_6ae82.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6ae82.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-kb5xom'
         
       exitCode: 0
   -
@@ -470,8 +535,8 @@ events:
     checks:
       - "Performing Test HAVE_WSTRICT_PROTOTYPES"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bz3okh"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bz3okh"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-k5rciu"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-k5rciu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -480,11 +545,19 @@ events:
       variable: "HAVE_WSTRICT_PROTOTYPES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bz3okh'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-k5rciu'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_440f0
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WSTRICT_PROTOTYPES  -fdiagnostics-color=always   -Wstrict-prototypes -o CMakeFiles/cmTC_440f0.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bz3okh/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_440f0.dir/src.c.obj -o cmTC_440f0.exe -Wl,--out-implib,libcmTC_440f0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b118f/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b118f.dir\\build.make CMakeFiles/cmTC_b118f.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-k5rciu'
+        Building C object CMakeFiles/cmTC_b118f.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WSTRICT_PROTOTYPES  -fdiagnostics-color=always   -Wstrict-prototypes -o CMakeFiles\\cmTC_b118f.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-k5rciu\\src.c
+        Linking C executable cmTC_b118f.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b118f.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_b118f.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_b118f.dir/objects.a @CMakeFiles\\cmTC_b118f.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_b118f.dir/objects.a -Wl,--no-whole-archive -o cmTC_b118f.exe -Wl,--out-implib,libcmTC_b118f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b118f.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-k5rciu'
         
       exitCode: 0
   -
@@ -497,8 +570,8 @@ events:
     checks:
       - "Performing Test HAVE_WUNDEF"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-5n3h9x"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-5n3h9x"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-p6f2sr"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-p6f2sr"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -507,11 +580,19 @@ events:
       variable: "HAVE_WUNDEF"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-5n3h9x'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-p6f2sr'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_3cfa6
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WUNDEF  -fdiagnostics-color=always   -Wundef -o CMakeFiles/cmTC_3cfa6.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-5n3h9x/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_3cfa6.dir/src.c.obj -o cmTC_3cfa6.exe -Wl,--out-implib,libcmTC_3cfa6.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_507f0/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_507f0.dir\\build.make CMakeFiles/cmTC_507f0.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-p6f2sr'
+        Building C object CMakeFiles/cmTC_507f0.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WUNDEF  -fdiagnostics-color=always   -Wundef -o CMakeFiles\\cmTC_507f0.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-p6f2sr\\src.c
+        Linking C executable cmTC_507f0.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_507f0.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_507f0.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_507f0.dir/objects.a @CMakeFiles\\cmTC_507f0.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_507f0.dir/objects.a -Wl,--no-whole-archive -o cmTC_507f0.exe -Wl,--out-implib,libcmTC_507f0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_507f0.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-p6f2sr'
         
       exitCode: 0
   -
@@ -524,8 +605,8 @@ events:
     checks:
       - "Performing Test HAVE_WVLA"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bettkc"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bettkc"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b7ivs8"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b7ivs8"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -534,11 +615,19 @@ events:
       variable: "HAVE_WVLA"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bettkc'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b7ivs8'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_0c2c1
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WVLA  -fdiagnostics-color=always   -Wvla -o CMakeFiles/cmTC_0c2c1.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bettkc/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_0c2c1.dir/src.c.obj -o cmTC_0c2c1.exe -Wl,--out-implib,libcmTC_0c2c1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_bdedf/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bdedf.dir\\build.make CMakeFiles/cmTC_bdedf.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b7ivs8'
+        Building C object CMakeFiles/cmTC_bdedf.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_WVLA  -fdiagnostics-color=always   -Wvla -o CMakeFiles\\cmTC_bdedf.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b7ivs8\\src.c
+        Linking C executable cmTC_bdedf.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_bdedf.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_bdedf.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_bdedf.dir/objects.a @CMakeFiles\\cmTC_bdedf.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_bdedf.dir/objects.a -Wl,--no-whole-archive -o cmTC_bdedf.exe -Wl,--out-implib,libcmTC_bdedf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_bdedf.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b7ivs8'
         
       exitCode: 0
   -
@@ -550,8 +639,8 @@ events:
     checks:
       - "Looking for clock_gettime"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-fijhip"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-fijhip"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x6np6w"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x6np6w"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -560,11 +649,19 @@ events:
       variable: "HAVE_CLOCK_GETTIME"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-fijhip'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x6np6w'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_c8fb5
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_c8fb5.dir/CheckSymbolExists.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-fijhip/CheckSymbolExists.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_c8fb5.dir/CheckSymbolExists.c.obj -o cmTC_c8fb5.exe -Wl,--out-implib,libcmTC_c8fb5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b6e81/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b6e81.dir\\build.make CMakeFiles/cmTC_b6e81.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x6np6w'
+        Building C object CMakeFiles/cmTC_b6e81.dir/CheckSymbolExists.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles\\cmTC_b6e81.dir\\CheckSymbolExists.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-x6np6w\\CheckSymbolExists.c
+        Linking C executable cmTC_b6e81.exe
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b6e81.dir\\link.txt --verbose=1
+        C:\\Users\\Title\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_b6e81.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_b6e81.dir/objects.a @CMakeFiles\\cmTC_b6e81.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\cc.exe -Wl,--whole-archive CMakeFiles\\cmTC_b6e81.dir/objects.a -Wl,--no-whole-archive -o cmTC_b6e81.exe -Wl,--out-implib,libcmTC_b6e81.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b6e81.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x6np6w'
         
       exitCode: 0
   -
@@ -576,8 +673,8 @@ events:
     checks:
       - "Looking for futimens"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ywv40u"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ywv40u"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-zk2e7w"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-zk2e7w"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -586,20 +683,23 @@ events:
       variable: "HAVE_FUTIMENS"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ywv40u'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-zk2e7w'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7d23f
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_7d23f.dir/CheckSymbolExists.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ywv40u/CheckSymbolExists.c
-        FAILED: CMakeFiles/cmTC_7d23f.dir/CheckSymbolExists.c.obj 
-        C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_7d23f.dir/CheckSymbolExists.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ywv40u/CheckSymbolExists.c
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ywv40u/CheckSymbolExists.c: In function 'main':
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ywv40u/CheckSymbolExists.c:9:19: error: 'futimens' undeclared (first use in this function)
-            9 |   return ((int*)(&futimens))[argc];
-              |                   ^~~~~~~~
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-ywv40u/CheckSymbolExists.c:9:19: note: each undeclared identifier is reported only once for each function it appears in
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d68ea/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d68ea.dir\\build.make CMakeFiles/cmTC_d68ea.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-zk2e7w'
+        Building C object CMakeFiles/cmTC_d68ea.dir/CheckSymbolExists.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles\\cmTC_d68ea.dir\\CheckSymbolExists.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-zk2e7w\\CheckSymbolExists.c
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-zk2e7w\\CheckSymbolExists.c:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kmain\x1b[m\x1b[K':
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-zk2e7w\\CheckSymbolExists.c:9:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kfutimens\x1b[m\x1b[K' undeclared (first use in this function)
+            9 |   return ((int*)(&\x1b[01;31m\x1b[Kfutimens\x1b[m\x1b[K))[argc];
+              |                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-zk2e7w\\CheckSymbolExists.c:9:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Keach undeclared identifier is reported only once for each function it appears in
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_d68ea.dir\\build.make:77: CMakeFiles/cmTC_d68ea.dir/CheckSymbolExists.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-zk2e7w'
+        mingw32-make: *** [Makefile:126: cmTC_d68ea/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
   -
     kind: "try_compile-v1"
     backtrace:
@@ -609,8 +709,8 @@ events:
     checks:
       - "Looking for posix_fadvise"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-upp97x"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-upp97x"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-wl97ov"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-wl97ov"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -619,20 +719,23 @@ events:
       variable: "HAVE_POSIX_FADVISE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-upp97x'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-wl97ov'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_2c4f3
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_2c4f3.dir/CheckSymbolExists.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-upp97x/CheckSymbolExists.c
-        FAILED: CMakeFiles/cmTC_2c4f3.dir/CheckSymbolExists.c.obj 
-        C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_2c4f3.dir/CheckSymbolExists.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-upp97x/CheckSymbolExists.c
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-upp97x/CheckSymbolExists.c: In function 'main':
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-upp97x/CheckSymbolExists.c:8:19: error: 'posix_fadvise' undeclared (first use in this function)
-            8 |   return ((int*)(&posix_fadvise))[argc];
-              |                   ^~~~~~~~~~~~~
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-upp97x/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9aa45/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9aa45.dir\\build.make CMakeFiles/cmTC_9aa45.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-wl97ov'
+        Building C object CMakeFiles/cmTC_9aa45.dir/CheckSymbolExists.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles\\cmTC_9aa45.dir\\CheckSymbolExists.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-wl97ov\\CheckSymbolExists.c
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-wl97ov\\CheckSymbolExists.c:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kmain\x1b[m\x1b[K':
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-wl97ov\\CheckSymbolExists.c:8:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kposix_fadvise\x1b[m\x1b[K' undeclared (first use in this function)
+            8 |   return ((int*)(&\x1b[01;31m\x1b[Kposix_fadvise\x1b[m\x1b[K))[argc];
+              |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-wl97ov\\CheckSymbolExists.c:8:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Keach undeclared identifier is reported only once for each function it appears in
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_9aa45.dir\\build.make:77: CMakeFiles/cmTC_9aa45.dir/CheckSymbolExists.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-wl97ov'
+        mingw32-make: *** [Makefile:126: cmTC_9aa45/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
   -
     kind: "try_compile-v1"
     backtrace:
@@ -642,8 +745,8 @@ events:
     checks:
       - "Looking for posix_madvise"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hmzuar"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hmzuar"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-2mzlde"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-2mzlde"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -652,19 +755,22 @@ events:
       variable: "HAVE_POSIX_MADVISE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hmzuar'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-2mzlde'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_8456d
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_8456d.dir/CheckSymbolExists.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hmzuar/CheckSymbolExists.c
-        FAILED: CMakeFiles/cmTC_8456d.dir/CheckSymbolExists.c.obj 
-        C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_8456d.dir/CheckSymbolExists.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hmzuar/CheckSymbolExists.c
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-hmzuar/CheckSymbolExists.c:2:10: fatal error: sys/mman.h: No such file or directory
-            2 | #include <sys/mman.h>
-              |          ^~~~~~~~~~~~
-        compilation terminated.\x0d
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f7b1c/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f7b1c.dir\\build.make CMakeFiles/cmTC_f7b1c.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-2mzlde'
+        Building C object CMakeFiles/cmTC_f7b1c.dir/CheckSymbolExists.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles\\cmTC_f7b1c.dir\\CheckSymbolExists.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-2mzlde\\CheckSymbolExists.c
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-2mzlde\\CheckSymbolExists.c:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksys/mman.h: No such file or directory
+            2 | #include \x1b[01;31m\x1b[K<sys/mman.h>\x1b[m\x1b[K
+              |          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_f7b1c.dir\\build.make:77: CMakeFiles/cmTC_f7b1c.dir/CheckSymbolExists.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-2mzlde'
+        mingw32-make: *** [Makefile:126: cmTC_f7b1c/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
   -
     kind: "try_compile-v1"
     backtrace:
@@ -674,8 +780,8 @@ events:
     checks:
       - "Performing Test HAVE_STAT_NANOSECOND_PRECISION"
     directories:
-      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6j6lot"
-      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6j6lot"
+      source: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4b5iao"
+      binary: "C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4b5iao"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -684,18 +790,21 @@ events:
       variable: "HAVE_STAT_NANOSECOND_PRECISION"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6j6lot'
+        Change Dir: 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4b5iao'
         
-        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_e3055
-        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_STAT_NANOSECOND_PRECISION  -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_e3055.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6j6lot/src.c
-        FAILED: CMakeFiles/cmTC_e3055.dir/src.c.obj 
-        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_STAT_NANOSECOND_PRECISION  -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles/cmTC_e3055.dir/src.c.obj -c C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6j6lot/src.c
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6j6lot/src.c: In function 'main':
-        C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-6j6lot/src.c:3:64: error: 'struct stat' has no member named 'st_atim'; did you mean 'st_atime'?
-            3 |                          int main() { struct stat st; (void)st.st_atim; }
-              |                                                                ^~~~~~~
-              |                                                                st_atime
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s): C:/Users/Title/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f0fd2/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f0fd2.dir\\build.make CMakeFiles/cmTC_f0fd2.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4b5iao'
+        Building C object CMakeFiles/cmTC_f0fd2.dir/src.c.obj
+        C:\\msys64\\mingw64\\bin\\cc.exe -DHAVE_STAT_NANOSECOND_PRECISION  -fdiagnostics-color=always   -U_POSIX_C_SOURCE -o CMakeFiles\\cmTC_f0fd2.dir\\src.c.obj -c C:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-4b5iao\\src.c
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-4b5iao\\src.c:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kmain\x1b[m\x1b[K':
+        \x1b[01m\x1b[KC:\\Users\\Title\\source\\repos\\libdeflate\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-4b5iao\\src.c:3:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K'\x1b[01m\x1b[Kstruct stat\x1b[m\x1b[K' has no member named '\x1b[01m\x1b[Kst_atim\x1b[m\x1b[K'; did you mean '\x1b[01m\x1b[Kst_atime\x1b[m\x1b[K'?
+            3 |                          int main() { struct stat st; (void)st.\x1b[01;31m\x1b[Kst_atim\x1b[m\x1b[K; }
+              |                                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K
+              |                                                                \x1b[32m\x1b[Kst_atime\x1b[m\x1b[K
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_f0fd2.dir\\build.make:77: CMakeFiles/cmTC_f0fd2.dir/src.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/Title/source/repos/libdeflate/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-4b5iao'
+        mingw32-make: *** [Makefile:126: cmTC_f0fd2/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
 ...
