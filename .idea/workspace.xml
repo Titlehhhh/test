@@ -26,7 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test 1">
+    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test 2">
       <change beforePath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727024428389</updated>
       <workItem from="1727024430952" duration="702000" />
-      <workItem from="1727103681593" duration="7194000" />
+      <workItem from="1727103681593" duration="7650000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -364,7 +364,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727110707887</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="test 1">
+      <option name="closed" value="true" />
+      <created>1727110961328</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1727110961328</updated>
+    </task>
+    <task id="LOCAL-00031" summary="test 2">
+      <option name="closed" value="true" />
+      <created>1727111197525</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1727111197525</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +409,7 @@
     <MESSAGE value="test file 2" />
     <MESSAGE value="test varsall" />
     <MESSAGE value="test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 1" />
+    <MESSAGE value="test 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 2" />
   </component>
 </project>

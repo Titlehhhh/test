@@ -58,8 +58,15 @@ jobs:
 
       - name: mkdir build
         run: mkdir build
-      - name: Configure
+      - name: Configure Win
+        if: ${{ contains(matrix.os, 'windows') }}
         run: cmake -B build -DCMAKE_SYSTEM_NAME=${{matrix.os}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]}
+        shell: cmd
+
+      - name: Config Linux and MAcOs
+        if: ${{ !contains(matrix.os, 'windows') }}
+        run: cmake -B build -DCMAKE_SYSTEM_NAME=${{matrix.os}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]}
+
       - name: Build
         run: cmake --build build
 
