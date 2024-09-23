@@ -26,24 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="dasd1">
-      <change afterPath="$PROJECT_DIR$/scripts/action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-a12926ce1dda221602df.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-b2b81a9e700cb1768e53.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-ceb489287b4098024491.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-09-22T17-00-58-0176.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-libdeflate-gzip-Release-782259ab280498865cb8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.29.6/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.29.6/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" />
-    </list>
+    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="dasd1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727024428389</updated>
       <workItem from="1727024430952" duration="702000" />
-      <workItem from="1727103681593" duration="806000" />
+      <workItem from="1727103681593" duration="1425000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -187,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727024996411</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dasd1">
+      <option name="closed" value="true" />
+      <created>1727104582503</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727104582503</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
