@@ -48,7 +48,7 @@ jobs:
       - name: Setup Cpp
         uses: aminya/setup-cpp@v1
         with:
-          compiler: llvm
+          compiler: clang-18
           vcvarsall: ${{ contains(matrix.os, 'windows') }}
           cmake: true
           ninja: true
@@ -60,7 +60,7 @@ jobs:
         run: |
           mkdir build
           cd build
-          cmake .. -DCMAKE_SYSTEM_NAME=${{matrix.nameOs}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]} --verbose=1
+          cmake .. -DCMAKE_SYSTEM_NAME=${{matrix.os}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]}
           cmake --build .
       
 
