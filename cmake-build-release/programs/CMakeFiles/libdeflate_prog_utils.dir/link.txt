@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc libdeflate_prog_utils.a CMakeFiles/libdeflate_prog_utils.dir/prog_util.c.obj CMakeFiles/libdeflate_prog_utils.dir/tgetopt.c.obj
-C:\msys64\mingw64\bin\ranlib.exe libdeflate_prog_utils.a
