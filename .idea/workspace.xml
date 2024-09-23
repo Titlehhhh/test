@@ -13,12 +13,7 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated>
-      <config projectName="libdeflate" targetName="libdeflate_shared" />
-      <config projectName="libdeflate" targetName="libdeflate_static" />
-      <config projectName="libdeflate" targetName="libdeflate_prog_utils" />
-      <config projectName="libdeflate" targetName="libdeflate-gzip" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -27,7 +22,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test 2">
+      <change beforePath="$PROJECT_DIR$/.cirrus.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEWS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_defs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/adler32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/arm/adler32_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/arm/cpu_features.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/arm/cpu_features.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/arm/crc32_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/arm/crc32_pmull_helpers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/arm/crc32_pmull_wide.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/arm/matchfinder_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bt_matchfinder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cpu_features_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/crc32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/crc32_multipliers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/crc32_tables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/decompress_template.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/deflate_compress.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/deflate_compress.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/deflate_constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/deflate_decompress.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gzip_compress.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gzip_constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gzip_decompress.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hc_matchfinder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ht_matchfinder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lib_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/matchfinder_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/riscv/matchfinder_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/x86/adler32_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/x86/adler32_template.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/x86/cpu_features.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/x86/cpu_features.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/x86/crc32_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/x86/crc32_pclmul_template.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/x86/decompress_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/x86/matchfinder_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/zlib_compress.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/zlib_constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/zlib_decompress.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libdeflate-config.cmake.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libdeflate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libdeflate.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/benchmark.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/checksum.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/config.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/gzip.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/prog_util.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/prog_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_checksums.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_custom_malloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_incomplete_codes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_invalid_streams.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_litrunlen_overflow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_overread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_slow_decompression.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_trailing_bytes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_util.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/test_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/tgetopt.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,38 +149,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="CMake Application.libdeflate-gzip">
+  <component name="RunManager">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="libdeflate-gzip" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libdeflate" TARGET_NAME="libdeflate-gzip" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="libdeflate" RUN_TARGET_NAME="libdeflate-gzip">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="libdeflate_prog_utils" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libdeflate" TARGET_NAME="libdeflate_prog_utils" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="libdeflate_shared" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libdeflate" TARGET_NAME="libdeflate_shared" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="libdeflate_static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libdeflate" TARGET_NAME="libdeflate_static" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.libdeflate_shared" />
-      <item itemvalue="CMake Application.libdeflate_static" />
-      <item itemvalue="CMake Application.libdeflate-gzip" />
-      <item itemvalue="CMake Application.libdeflate_prog_utils" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727024428389</updated>
       <workItem from="1727024430952" duration="702000" />
-      <workItem from="1727103681593" duration="7650000" />
+      <workItem from="1727103681593" duration="8002000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -380,11 +415,24 @@
       <option name="project" value="LOCAL" />
       <updated>1727111197525</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="test 2">
+      <option name="closed" value="true" />
+      <created>1727111407319</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1727111407319</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
