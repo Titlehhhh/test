@@ -53,14 +53,14 @@ jobs:
           cmake: true
           ninja: true
           vcpkg: false
-          cppcheck: true
-          clang-tidy: true
+          cppcheck: false
+          clang-tidy: false
 
       - name: Build
         run: |
           mkdir build
           cd build
-          cmake .. -DCMAKE_SYSTEM_NAME=${{matrix.os}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]} --verbose=1
+          cmake .. -DCMAKE_SYSTEM_NAME=${{matrix.nameOs}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]} --verbose=1
           cmake --build .
       
 
