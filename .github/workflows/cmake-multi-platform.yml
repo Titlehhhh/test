@@ -12,12 +12,12 @@ jobs:
         include:
           - os: windows-latest
             arch: i386
-            nameOs: windows-2022
+            nameOs: Windows
             fileName: "libdeflate.dll"
             FEATURES: ["zmm", "avx512_vnni", "avx512vl", "avx_vnni", "vpclmulqdq", "avx2", "avx", "bmi2", "pclmulqdq", "sse2"]
           - os: windows-latest
             arch: x86_64
-            nameOs: windows-2022
+            nameOs: Windows
             fileName: "libdeflate.dll"
             FEATURES: ["zmm", "avx512_vnni", "avx512vl", "avx_vnni", "vpclmulqdq", "avx2", "avx", "bmi2", "pclmulqdq", "sse2"]
           - os: ubuntu-latest
