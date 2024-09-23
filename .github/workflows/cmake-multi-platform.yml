@@ -54,7 +54,7 @@ jobs:
         run: |
           mkdir build
           cd build
-          cmake .. -DCMAKE_SYSTEM_NAME=${matrix.nameOs} -DCMAKE_SYSTEM_PROCESSOR=${matrix.arch} -DFEATURES=${FEATURES[*]}
+          cmake .. -DCMAKE_SYSTEM_NAME=${{matrix.nameOs}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]}
           cmake --build .
 
       - name: Upload artifact
