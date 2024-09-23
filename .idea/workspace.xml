@@ -28,7 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727024428389</updated>
       <workItem from="1727024430952" duration="702000" />
-      <workItem from="1727103681593" duration="3510000" />
+      <workItem from="1727103681593" duration="3563000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -221,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727106234366</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test">
+      <option name="closed" value="true" />
+      <created>1727107242539</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727107242539</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
