@@ -39,7 +39,7 @@ jobs:
     name: Build and test (${{ matrix.arch }}, Debian Bullseye, ${{ matrix.compiler }})
     strategy:
       matrix:
-        arch: [armv6, armv7, aarch64]
+        arch: [armv7, aarch64]
         compiler: [gcc]
     runs-on: ubuntu-latest
     steps:

@@ -21,7 +21,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test 4" />
+    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="4.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727024428389</updated>
       <workItem from="1727024430952" duration="702000" />
-      <workItem from="1727103681593" duration="9462000" />
+      <workItem from="1727103681593" duration="9778000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -388,7 +388,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727112940478</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="2 7 2">
+      <option name="closed" value="true" />
+      <created>1727113500114</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1727113500114</updated>
+    </task>
+    <task id="LOCAL-00038" summary="4.0">
+      <option name="closed" value="true" />
+      <created>1727113555906</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1727113555906</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +441,8 @@
     <MESSAGE value="test 2" />
     <MESSAGE value="test 3" />
     <MESSAGE value="test 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 4" />
+    <MESSAGE value="2 7 2" />
+    <MESSAGE value="4.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.0" />
   </component>
 </project>
