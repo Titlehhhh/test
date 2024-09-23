@@ -18,7 +18,7 @@ jobs:
           - macos-14 # arm64
           - macos-13
         compiler:
-          - llvm
+          - llvm-19
           - gcc
           # you can specify the version after `-` like `llvm-18`.
         include:
