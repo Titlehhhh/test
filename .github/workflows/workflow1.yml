@@ -11,7 +11,7 @@ jobs:
     env:
       CC: ${{ matrix.compiler }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         name: Checkout libdeflate
         with:
           repository: 'ebiggers/libdeflate'
@@ -43,7 +43,7 @@ jobs:
         compiler: [gcc]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         name: Checkout libdeflate
         with:
           repository: 'ebiggers/libdeflate'
@@ -88,7 +88,7 @@ jobs:
               echo "rid=arm64" >> $GITHUB_ENV
               ;;
           esac
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: 'linux-${{ env.rid }}'
           path: artifacts/libdeflate.so
@@ -105,7 +105,7 @@ jobs:
       CMAKE_OSX_ARCHITECTURES: arm64;x86_64
       MACOSX_DEPLOYMENT_TARGET: 11.0
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         name: Checkout libdeflate
         with:
           repository: 'ebiggers/libdeflate'
@@ -163,7 +163,7 @@ jobs:
               -DCMAKE_TOOLCHAIN_FILE=scripts/toolchain-x86_64-w64-mingw32.cmake
           cmake --build build --verbose
           DESTDIR=build/install cmake --install build --verbose
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: 'win-x64'
           path: build/libdeflate.dll
