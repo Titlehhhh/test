@@ -1,0 +1,176 @@
+﻿name: Prepare Release
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        required: true
+        type: string
+jobs:
+  linux-x64-build-and-test:
+    name: Build and test (linux-x64, ${{ matrix.os }}, ${{ matrix.compiler }})
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        compiler: [gcc]
+    runs-on: ${{ matrix.os }}
+    env:
+      CC: ${{ matrix.compiler }}
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout libdeflate
+        with:
+          repository: 'ebiggers/libdeflate'
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang llvm libz-dev valgrind
+      - run: scripts/run_tests.sh
+      - name: Build lib
+        run: |
+          cmake -B build \
+            -DLIBDEFLATE_BUILD_SHARED_LIB=1 \
+            -DLIBDEFLATE_COMPRESSION_SUPPORT=1 \
+            -DLIBDEFLATE_DECOMPRESSION_SUPPORT=1 \
+            -DLIBDEFLATE_ZLIB_SUPPORT=1 \
+            -DLIBDEFLATE_GZIP_SUPPORT=1 
+          cmake --build build
+      - uses: actions/upload-artifact@v3
+        with:
+          name: 'linux-x64'
+          path: build/libdeflate.so
+          if-no-files-found: error
+
+  linux-armX-build-and-test:
+    name: Build and test (${{ matrix.arch }}, Debian Bullseye, ${{ matrix.compiler }})
+    strategy:
+      matrix:
+        arch: [armv6, armv7, aarch64]
+        compiler: [gcc]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout libdeflate
+        with:
+          repository: 'ebiggers/libdeflate'
+      - uses: uraimo/run-on-arch-action@v2.5.0
+        with:
+          arch: ${{ matrix.arch }}
+          distro: bullseye
+          githubToken: ${{ github.token }}
+          env: |
+            CC: ${{ matrix.compiler }}
+          setup: |
+            mkdir -p "${PWD}/artifacts"
+          dockerRunArgs: |
+            --volume "${PWD}/artifacts:/artifacts"
+          install: |
+            apt-get update
+            apt-get install -y build-essential cmake clang llvm libz-dev
+          run: |
+            tests=(regular)
+            if [ ${{matrix.compiler}} = clang ]; then
+                tests+=(ubsan)
+            fi
+            scripts/run_tests.sh "${tests[@]}"
+            cmake -B build \
+              -DLIBDEFLATE_BUILD_SHARED_LIB=1 \
+              -DLIBDEFLATE_COMPRESSION_SUPPORT=1 \
+              -DLIBDEFLATE_DECOMPRESSION_SUPPORT=1 \
+              -DLIBDEFLATE_ZLIB_SUPPORT=1 \
+              -DLIBDEFLATE_GZIP_SUPPORT=1 \
+            cmake --build build
+            cp build/libdeflate.so /artifacts/libdeflate.so
+      - name: Set arch options
+        run: |
+          case ${{ matrix.arch }} in
+            armv6)
+              echo "rid=armv6" >> $GITHUB_ENV
+              ;;
+            armv7)
+              echo "rid=arm" >> $GITHUB_ENV
+              ;;
+            aarch64)
+              echo "rid=arm64" >> $GITHUB_ENV
+              ;;
+          esac
+      - uses: actions/upload-artifact@v3
+        with:
+          name: 'linux-${{ env.rid }}'
+          path: artifacts/libdeflate.so
+          if-no-files-found: error
+
+  macos-build-and-test:
+    name: Build and test (macOS, ${{ matrix.os }})
+    strategy:
+      matrix:
+        os: [macos-11]
+    runs-on: ${{ matrix.os }}
+    env:
+      CFLAGS: -Werror -DLIBDEFLATE_ENABLE_ASSERTIONS
+      CMAKE_OSX_ARCHITECTURES: arm64;x86_64
+      MACOSX_DEPLOYMENT_TARGET: 11.0
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout libdeflate
+        with:
+          repository: 'ebiggers/libdeflate'
+      - run: cmake -B build -DLIBDEFLATE_BUILD_TESTS=1
+      - run: cmake --build build --verbose
+      - run: DESTDIR=build/install cmake --install build --verbose
+      - run: ctest --test-dir build
+      - name: Build lib
+        run: |
+          cmake -B build \
+            -DLIBDEFLATE_BUILD_SHARED_LIB=1 \
+            -DLIBDEFLATE_COMPRESSION_SUPPORT=1 \
+            -DLIBDEFLATE_DECOMPRESSION_SUPPORT=1 \
+            -DLIBDEFLATE_ZLIB_SUPPORT=1 \
+            -DLIBDEFLATE_GZIP_SUPPORT=1 \
+          cmake --build build
+      - uses: actions/upload-artifact@v3
+        with:
+          name: 'osx.11.0'
+          path: build/libdeflate.dylib
+          if-no-files-found: error
+
+
+  cross-compile-for-windows:
+    name: Cross compile for Windows
+    runs-on: ubuntu-latest
+    env:
+      CFLAGS: -Werror -DLIBDEFLATE_ENABLE_ASSERTIONS
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout libdeflate
+        with:
+          repository: 'ebiggers/libdeflate'
+          ref: ${{ github.event.inputs.tag }}
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-mingw-w64-i686 gcc-mingw-w64-x86-64 libz-mingw-w64-dev
+      # Unfortunately Ubuntu doesn't have {i686,x86_64}-w64-mingw32-cmake like
+      # some distros have, so we have to provide our own toolchain files here.
+      - name: 32-bit build
+        run: |
+          scripts/cmake-helper.sh -DLIBDEFLATE_BUILD_TESTS=1 \
+              -DCMAKE_TOOLCHAIN_FILE=scripts/toolchain-i686-w64-mingw32.cmake
+          cmake --build build --verbose
+          DESTDIR=build/install cmake --install build --verbose
+      - uses: actions/upload-artifact@v3
+        with:
+          name: 'win-x86'
+          path: build/libdeflate.dll
+          if-no-files-found: error
+      - name: 64-bit build
+        run: |
+          scripts/cmake-helper.sh -DLIBDEFLATE_BUILD_TESTS=1 \
+              -DCMAKE_TOOLCHAIN_FILE=scripts/toolchain-x86_64-w64-mingw32.cmake
+          cmake --build build --verbose
+          DESTDIR=build/install cmake --install build --verbose
+      - uses: actions/upload-artifact@v3
+        with:
+          name: 'win-x64'
+          path: build/libdeflate.dll
+          if-no-files-found: error
+

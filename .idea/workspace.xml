@@ -21,74 +21,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test 2">
-      <change beforePath="$PROJECT_DIR$/.cirrus.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/COPYING" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEWS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_defs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/adler32.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/arm/adler32_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/arm/cpu_features.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/arm/cpu_features.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/arm/crc32_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/arm/crc32_pmull_helpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/arm/crc32_pmull_wide.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/arm/matchfinder_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bt_matchfinder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cpu_features_common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/crc32.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/crc32_multipliers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/crc32_tables.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/decompress_template.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/deflate_compress.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/deflate_compress.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/deflate_constants.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/deflate_decompress.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gzip_compress.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gzip_constants.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gzip_decompress.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/hc_matchfinder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ht_matchfinder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lib_common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/matchfinder_common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/riscv/matchfinder_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/x86/adler32_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/x86/adler32_template.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/x86/cpu_features.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/x86/cpu_features.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/x86/crc32_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/x86/crc32_pclmul_template.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/x86/decompress_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/x86/matchfinder_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/zlib_compress.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/zlib_constants.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/zlib_decompress.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libdeflate-config.cmake.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libdeflate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libdeflate.pc.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/benchmark.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/checksum.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/config.h.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/gzip.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/prog_util.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/prog_util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_checksums.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_custom_malloc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_incomplete_codes.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_invalid_streams.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_litrunlen_overflow.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_overread.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_slow_decompression.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_trailing_bytes.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_util.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/test_util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/tgetopt.c" beforeDir="false" />
+    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test 3">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/workflow1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="workflow" />
       </list>
     </option>
   </component>
@@ -165,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727024428389</updated>
       <workItem from="1727024430952" duration="702000" />
-      <workItem from="1727103681593" duration="8002000" />
+      <workItem from="1727103681593" duration="9000000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -423,7 +359,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727111407319</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="test 3">
+      <option name="closed" value="true" />
+      <created>1727111781281</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1727111781281</updated>
+    </task>
+    <task id="LOCAL-00034" summary="test 3">
+      <option name="closed" value="true" />
+      <created>1727112036574</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1727112036574</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,6 +410,7 @@
     <MESSAGE value="test varsall" />
     <MESSAGE value="test 1" />
     <MESSAGE value="test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 2" />
+    <MESSAGE value="test 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 3" />
   </component>
 </project>
