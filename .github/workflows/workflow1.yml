@@ -1,10 +1,5 @@
 ﻿name: Prepare Release
-on:
-  workflow_dispatch:
-    inputs:
-      tag:
-        required: true
-        type: string
+on: push
 jobs:
   linux-x64-build-and-test:
     name: Build and test (linux-x64, ${{ matrix.os }}, ${{ matrix.compiler }})
