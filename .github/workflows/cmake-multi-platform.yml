@@ -12,21 +12,27 @@ jobs:
         include:
           - os: windows-latest
             arch: i386
+            nameOs: windows-2022
             FEATURES: ["zmm", "avx512_vnni", "avx512vl", "avx_vnni", "vpclmulqdq", "avx2", "avx", "bmi2", "pclmulqdq", "sse2"]
           - os: windows-latest
             arch: x86_64
+            nameOs: windows-2022
             FEATURES: ["zmm", "avx512_vnni", "avx512vl", "avx_vnni", "vpclmulqdq", "avx2", "avx", "bmi2", "pclmulqdq", "sse2"]
           - os: ubuntu-latest
             arch: arm64
+            nameOs: ubuntu-20.04
             FEATURES: ["dotprod", "sha3", "prefer_pmull", "crc32", "pmull", "neon"]
           - os: ubuntu-latest
             arch: aarch64
+            nameOs: ubuntu-20.04
             FEATURES: ["dotprod", "sha3", "prefer_pmull", "crc32", "pmull", "neon"]
           - os: macos-latest
             arch: arm64
+            nameOs: macos-10.15
             FEATURES: ["dotprod", "sha3", "prefer_pmull", "crc32", "pmull", "neon"]
           - os: macos-latest
             arch: x86_64
+            nameOs: macos-10.15
             FEATURES: ["zmm", "avx512_vnni", "avx512vl", "avx_vnni", "vpclmulqdq", "avx2", "avx", "bmi2", "pclmulqdq", "sse2"]
 
     steps:
@@ -48,7 +54,7 @@ jobs:
         run: |
           mkdir build
           cd build
-          cmake .. -DCMAKE_SYSTEM_NAME=${matrix.os} -DCMAKE_SYSTEM_PROCESSOR=${matrix.arch} -DFEATURES=${FEATURES[*]}
+          cmake .. -DCMAKE_SYSTEM_NAME=${matrix.nameOs} -DCMAKE_SYSTEM_PROCESSOR=${matrix.arch} -DFEATURES=${FEATURES[*]}
           cmake --build .
 
       - name: Upload artifact
