@@ -49,7 +49,7 @@ jobs:
         uses: aminya/setup-cpp@v1
         with:
           compiler: clang-18
-          vcvarsall: false
+          vcvarsall: ${{ contains(matrix.os, 'windows') }}
           cmake: true
           ninja: true
           vcpkg: false
@@ -58,10 +58,10 @@ jobs:
 
       - name: Build
         run: |
-          mkdir build
-          cd build
-          cmake .. -DCMAKE_SYSTEM_NAME=${{matrix.os}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]}
-          cmake --build .
+          mkdir build         
+          
+          cmake -B build -DCMAKE_SYSTEM_NAME=${{matrix.os}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]}
+          cmake --build build
       
 
       - name: Upload artifact

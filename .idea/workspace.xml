@@ -26,7 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test file">
+    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="test varsall">
       <change beforePath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cmake-multi-platform.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727024428389</updated>
       <workItem from="1727024430952" duration="702000" />
-      <workItem from="1727103681593" duration="6567000" />
+      <workItem from="1727103681593" duration="6881000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -324,7 +324,39 @@
       <option name="project" value="LOCAL" />
       <updated>1727110262429</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test file">
+      <option name="closed" value="true" />
+      <created>1727110313684</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1727110313684</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test file 1">
+      <option name="closed" value="true" />
+      <created>1727110348319</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727110348319</updated>
+    </task>
+    <task id="LOCAL-00027" summary="test file 2">
+      <option name="closed" value="true" />
+      <created>1727110461305</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727110461305</updated>
+    </task>
+    <task id="LOCAL-00028" summary="test varsall">
+      <option name="closed" value="true" />
+      <created>1727110531412</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1727110531412</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +381,9 @@
     <MESSAGE value="19" />
     <MESSAGE value="test" />
     <MESSAGE value="test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="test file" />
+    <MESSAGE value="test file 1" />
+    <MESSAGE value="test file 2" />
+    <MESSAGE value="test varsall" />
+    <option name="LAST_COMMIT_MESSAGE" value="test varsall" />
   </component>
 </project>
