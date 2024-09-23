@@ -56,13 +56,12 @@ jobs:
           cppcheck: false
           clang-tidy: false
 
+      - name: mkdir build
+        run: mkdir build
+      - name: Configure
+        run: cmake -B build -DCMAKE_SYSTEM_NAME=${{matrix.os}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]}
       - name: Build
-        run: |
-          mkdir build         
-          
-          cmake -S . -B build -DCMAKE_SYSTEM_NAME=${{matrix.os}} -DCMAKE_SYSTEM_PROCESSOR=${{matrix.arch}} -DFEATURES=${FEATURES[*]}
-          cmake --build build
-      
+        run: cmake --build build
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4.4.0
