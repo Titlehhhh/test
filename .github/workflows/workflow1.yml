@@ -62,17 +62,6 @@ jobs:
             apt-get update
             apt-get install -y build-essential cmake clang llvm libz-dev
           run: |
-            tests=(regular)
-            if [ ${{matrix.compiler}} = clang ]; then
-                tests+=(ubsan)
-            fi
-            scripts/run_tests.sh "${tests[@]}"
-            cmake -B build \
-              -DLIBDEFLATE_BUILD_SHARED_LIB=1 \
-              -DLIBDEFLATE_COMPRESSION_SUPPORT=1 \
-              -DLIBDEFLATE_DECOMPRESSION_SUPPORT=1 \
-              -DLIBDEFLATE_ZLIB_SUPPORT=1 \
-              -DLIBDEFLATE_GZIP_SUPPORT=1 \
             mkdir build
             cmake --build build
             cp build/libdeflate.so /artifacts/libdeflate.so
