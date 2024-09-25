@@ -73,6 +73,7 @@ jobs:
               -DLIBDEFLATE_DECOMPRESSION_SUPPORT=1 \
               -DLIBDEFLATE_ZLIB_SUPPORT=1 \
               -DLIBDEFLATE_GZIP_SUPPORT=1 \
+            mkdir build
             cmake --build build
             cp build/libdeflate.so /artifacts/libdeflate.so
       - name: Set arch options
