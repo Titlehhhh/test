@@ -35,12 +35,60 @@ jobs:
           path: build/libdeflate.so
           if-no-files-found: error
 
+  linux-armX-build-and-test:
+    name: Build and test (${{ matrix.arch }}, Debian Bullseye, ${{ matrix.compiler }})
+    strategy:
+      matrix:
+        arch: [armv7, aarch64]
+        compiler: [gcc]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout libdeflate
+        with:
+          repository: 'ebiggers/libdeflate'
+      - uses: uraimo/run-on-arch-action@v2.7.2
+        with:
+          arch: ${{ matrix.arch }}
+          distro: bullseye
+          githubToken: ${{ github.token }}
+          env: |
+            CC: ${{ matrix.compiler }}
+          setup: |
+            mkdir -p "${PWD}/artifacts"
+          dockerRunArgs: |
+            --volume "${PWD}/artifacts:/artifacts"
+          install: |
+            apt-get update
+            apt-get install -y build-essential cmake clang llvm libz-dev
+          run: |
+            mkdir build
+            cmake --build build
+            cp build/libdeflate.so /artifacts/libdeflate.so
+      - name: Set arch options
+        run: |
+          case ${{ matrix.arch }} in
+            armv6)
+              echo "rid=armv6" >> $GITHUB_ENV
+              ;;
+            armv7)
+              echo "rid=arm" >> $GITHUB_ENV
+              ;;
+            aarch64)
+              echo "rid=arm64" >> $GITHUB_ENV
+              ;;
+          esac
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 'linux-${{ env.rid }}'
+          path: artifacts/libdeflate.so
+          if-no-files-found: error
 
   macos-build-and-test:
     name: Build and test (macOS, ${{ matrix.os }})
     strategy:
       matrix:
-        os: [macos-11]
+        os: [macos-latest]
     runs-on: ${{ matrix.os }}
     env:
       CFLAGS: -Werror -DLIBDEFLATE_ENABLE_ASSERTIONS
@@ -94,7 +142,7 @@ jobs:
               -DCMAKE_TOOLCHAIN_FILE=scripts/toolchain-i686-w64-mingw32.cmake
           cmake --build build --verbose
           DESTDIR=build/install cmake --install build --verbose
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: 'win-x86'
           path: build/libdeflate.dll

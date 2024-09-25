@@ -21,7 +21,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="1" />
+    <list default="true" id="ff78b61c-025f-4bb3-b4d7-c57675fd7c9e" name="Changes" comment="mac">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/workflow1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/workflow1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +102,7 @@
       <updated>1727024428389</updated>
       <workItem from="1727024430952" duration="702000" />
       <workItem from="1727103681593" duration="10462000" />
-      <workItem from="1727281663916" duration="2601000" />
+      <workItem from="1727281663916" duration="5163000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -453,7 +456,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727285581216</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="mac">
+      <option name="closed" value="true" />
+      <created>1727285768026</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1727285768026</updated>
+    </task>
+    <task id="LOCAL-00046" summary="mac">
+      <option name="closed" value="true" />
+      <created>1727286132062</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1727286132062</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,6 +511,7 @@
     <MESSAGE value="2 7 2" />
     <MESSAGE value="4.0" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="mac" />
   </component>
 </project>
