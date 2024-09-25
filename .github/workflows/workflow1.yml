@@ -50,7 +50,7 @@ jobs:
       - uses: uraimo/run-on-arch-action@v2.7.2
         with:
           arch: ${{ matrix.arch }}
-          distro: bullseye
+          distro: ubuntu20.04
           githubToken: ${{ github.token }}
           env: |
             CC: ${{ matrix.compiler }}
