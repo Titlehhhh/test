@@ -64,6 +64,8 @@ jobs:
       CFLAGS: -Werror -DLIBDEFLATE_ENABLE_ASSERTIONS
     steps:
     - uses: actions/checkout@v4
+    - run: mkdir build
+    - run: cmake -S . -B ./build
     - run: cmake --build build --verbose --config Release
     - run: cmake --install build --verbose --config Release
     - name: Upload
