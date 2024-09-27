@@ -48,6 +48,7 @@ jobs:
             cmake -S . -B ./build
             cmake --build build --verbose --config Release
             cmake --install build --verbose --config Release
+      - run: ls
 
   macos-build-and-test:
     name: Build and test (macOS)
