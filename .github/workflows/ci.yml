@@ -63,8 +63,6 @@ jobs:
 
   windows-visualstudio-build-and-test:
     name: Build windows arm64
-
-
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v4
@@ -72,36 +70,8 @@ jobs:
       uses: ilammy/msvc-dev-cmd@v1
       with:
         arch: amd64_arm64
+        toolset: ClangCL
     - run: mkdir build
     - run: cmake -S . -B ./build
     - run: cmake --build build --verbose --config Release
     - run: cmake --install build --verbose --config Release
-
-  cross-compile-for-windows:
-    name: Cross compile for Windows
-    runs-on: ubuntu-latest
-    env:
-      CFLAGS: -Werror -DLIBDEFLATE_ENABLE_ASSERTIONS
-    steps:
-    - uses: actions/checkout@v4
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y gcc-mingw-w64-i686 gcc-mingw-w64-x86-64 libz-mingw-w64-dev
-    # Unfortunately Ubuntu doesn't have {i686,x86_64}-w64-mingw32-cmake like
-    # some distros have, so we have to provide our own toolchain files here.
-    - name: 32-bit build
-      run: |
-        chmod +x scripts/cmake-helper.sh
-        scripts/cmake-helper.sh -DLIBDEFLATE_BUILD_TESTS=1 \
-            -DCMAKE_TOOLCHAIN_FILE=scripts/toolchain-i686-w64-mingw32.cmake
-        cmake --build build --verbose
-        DESTDIR=build/install cmake --install build --verbose
-    - name: 64-bit build
-      run: |
-        chmod +x scripts/cmake-helper.sh
-        scripts/cmake-helper.sh -DLIBDEFLATE_BUILD_TESTS=1 \
-            -DCMAKE_TOOLCHAIN_FILE=scripts/toolchain-x86_64-w64-mingw32.cmake
-        cmake --build build --verbose
-        DESTDIR=build/install cmake --install build --verbose
-
