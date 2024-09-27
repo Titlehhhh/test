@@ -17,7 +17,6 @@ jobs:
     - run: sudo sysctl kernel.randomize_va_space=0
     - run: cmake -S . -B ./build
     - run: cmake --build build --verbose --config Release
-    - run: sudo cmake --install build --verbose --config Release
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
@@ -49,7 +48,6 @@ jobs:
           run: |
             cmake -S . -B ./build
             cmake --build build --verbose --config Release
-            cmake --install build --verbose --config Release
       - run: ls ./build
       - name: Upload
         uses: actions/upload-artifact@v4
@@ -67,7 +65,6 @@ jobs:
     - run: mkdir build
     - run: cmake -S . -B ./build
     - run: cmake --build build --verbose --config Release
-    - run: cmake --install build --verbose --config Release
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
@@ -99,17 +96,9 @@ jobs:
     - run: mkdir build
     - run: cmake -S . -B ./build -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang
     - run: cmake --build build --verbose --config Release
-    - run: cmake --install build --verbose --config Release
-    - run: ls
-    - run: ls build/Release
-    - name: Upload test
-      uses: actions/upload-artifact@v4
-      with:
-        name: windows-${{matrix.arch}}
-        path: build
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
         name: windows-${{matrix.arch}}
-        path: build/libdeflate.dll
+        path: build/Release/deflate.dll
         if-no-files-found: 'error'
