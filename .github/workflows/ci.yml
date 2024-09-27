@@ -20,7 +20,7 @@ jobs:
     - run: sudo sysctl kernel.randomize_va_space=0 # https://bugs.launchpad.net/ubuntu/+source/llvm-toolchain-14/+bug/2048768
     - run: cmake -S . -B ./build
     - run: cmake --build build --verbose --config Release
-    - run: cmake --install build --verbose --config Release
+    - run: sudo cmake --install build --verbose --config Release
 
   other-arch-build-and-test:
     name: Build and test (${{ matrix.arch }}, ${{ matrix.distro }}, ${{ matrix.compiler }})
