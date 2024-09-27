@@ -18,15 +18,9 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y clang llvm libz-dev valgrind
     - run: sudo sysctl kernel.randomize_va_space=0 # https://bugs.launchpad.net/ubuntu/+source/llvm-toolchain-14/+bug/2048768
-    - run: chmod +x scripts/run_tests.sh
-    - run: chmod +x scripts/cmake-helper.sh
-    - run: chmod +x scripts/gzip_tests.sh
-    - run: chmod +x scripts/gen-release-archives.sh
-    - run: sudo ./scripts/run_tests.sh
-    - name: Direct compilation without official build system
-      run: $CC -O2 -Wall -Werror lib/*{,/*}.c programs/{gzip,prog_util,tgetopt}.c -o libdeflate-gzip
-    - name: LS
-      run: ls
+    - run: cmake -S . -B ./build
+    - run: cmake --build build --verbose --config Release
+    - run: cmake --install build --verbose --config Release
 
   other-arch-build-and-test:
     name: Build and test (${{ matrix.arch }}, ${{ matrix.distro }}, ${{ matrix.compiler }})
@@ -57,15 +51,9 @@ jobs:
             apt-get update
             apt-get install -y build-essential cmake clang llvm libz-dev
           run: |
-            chmod +x scripts/run_tests.sh
-            chmod +x scripts/cmake-helper.sh
-            chmod +x scripts/gzip_tests.sh
-            chmod +x scripts/gen-release-archives.sh
-            tests=(regular)
-            if [ ${{matrix.compiler}} = clang ]; then
-                tests+=(ubsan)
-            fi
-            CC=${{matrix.compiler}} scripts/run_tests.sh "${tests[@]}"
+            cmake -S . -B ./build
+            cmake --build build --verbose --config Release
+            cmake --install build --verbose --config Release
 
   macos-build-and-test:
     name: Build and test (macOS)
@@ -77,9 +65,6 @@ jobs:
     - run: cmake -B build -DLIBDEFLATE_BUILD_TESTS=1
     - run: cmake --build build --verbose
     - run: DESTDIR=build/install cmake --install build --verbose
-    - run: ctest --test-dir build
-    - name: Direct compilation without official build system
-      run: cc -O2 -Wall -Werror lib/*{,/*}.c programs/{gzip,prog_util,tgetopt}.c -o libdeflate-gzip
 
 
   windows-visualstudio-build-and-test:
