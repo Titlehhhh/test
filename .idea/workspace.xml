@@ -23,7 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f567c72-0f27-4916-a1c7-f8244ac7fb5f" name="Changes" comment="ls" />
+    <list default="true" id="8f567c72-0f27-4916-a1c7-f8244ac7fb5f" name="Changes" comment="chmod cross compile windows" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727429029974</updated>
-      <workItem from="1727429033213" duration="2038000" />
+      <workItem from="1727429033213" duration="2406000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -190,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727431096739</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="delete">
+      <option name="closed" value="true" />
+      <created>1727431231189</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727431231189</updated>
+    </task>
+    <task id="LOCAL-00012" summary="chmod cross compile windows">
+      <option name="closed" value="true" />
+      <created>1727431487305</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727431487305</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +228,8 @@
     <MESSAGE value="chmod" />
     <MESSAGE value="chmod 2" />
     <MESSAGE value="ls" />
-    <option name="LAST_COMMIT_MESSAGE" value="ls" />
+    <MESSAGE value="delete" />
+    <MESSAGE value="chmod cross compile windows" />
+    <option name="LAST_COMMIT_MESSAGE" value="chmod cross compile windows" />
   </component>
 </project>
