@@ -96,9 +96,10 @@ jobs:
     - run: mkdir build
     - run: cmake -S . -B ./build -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang
     - run: cmake --build build --verbose --config Release
+    - run: rename build/Release/deflate.dll libdeflate.dll
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
         name: windows-${{matrix.arch}}
-        path: build/Release/deflate.dll
+        path: build/Release/libdeflate.dll
         if-no-files-found: 'error'
