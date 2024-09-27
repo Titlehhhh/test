@@ -29,17 +29,17 @@ include(CheckCCompilerFlag)
 include(GNUInstallDirs)
 
 # Declare the options, which can be overridden via 'cmake -DOPTION=VALUE'.
-option(LIBDEFLATE_BUILD_STATIC_LIB "Build the static library" ON)
+option(LIBDEFLATE_BUILD_STATIC_LIB "Build the static library" OFF)
 option(LIBDEFLATE_BUILD_SHARED_LIB "Build the shared library" ON)
 option(LIBDEFLATE_COMPRESSION_SUPPORT "Support compression" ON)
 option(LIBDEFLATE_DECOMPRESSION_SUPPORT "Support decompression" ON)
 option(LIBDEFLATE_ZLIB_SUPPORT "Support the zlib format" ON)
-option(LIBDEFLATE_GZIP_SUPPORT "Support the gzip format" ON)
+option(LIBDEFLATE_GZIP_SUPPORT "Support the gzip format" OFF)
 option(LIBDEFLATE_FREESTANDING
        "Build a freestanding library, i.e. a library that doesn't link to any
        libc functions like malloc(), free(), and memcpy().  Library users will
        need to provide a custom memory allocator." OFF)
-option(LIBDEFLATE_BUILD_GZIP "Build the libdeflate-gzip program" ON)
+option(LIBDEFLATE_BUILD_GZIP "Build the libdeflate-gzip program" OFF)
 option(LIBDEFLATE_BUILD_TESTS "Build the test programs" OFF)
 option(LIBDEFLATE_USE_SHARED_LIB
        "Link the libdeflate-gzip and test programs to the shared library instead
