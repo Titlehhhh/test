@@ -93,6 +93,7 @@ jobs:
       uses: ilammy/msvc-dev-cmd@v1
       with:
         arch: amd64_arm64
+    - run: mkdir build
     - run: cmake --build build --verbose --config Release
     - run: cmake --install build --verbose --config Release
 
