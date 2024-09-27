@@ -55,6 +55,10 @@ jobs:
             apt-get update
             apt-get install -y build-essential cmake clang llvm libz-dev
           run: |
+            chmod +x scripts/run_tests.sh
+            chmod +x scripts/cmake-helper.sh
+            chmod +x scripts/gzip_tests.sh
+            chmod +x scripts/gen-release-archives.sh
             tests=(regular)
             if [ ${{matrix.compiler}} = clang ]; then
                 tests+=(ubsan)
