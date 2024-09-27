@@ -18,6 +18,11 @@ jobs:
     - run: cmake -S . -B ./build
     - run: cmake --build build --verbose --config Release
     - run: sudo cmake --install build --verbose --config Release
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: linux-x86_64
+        path: ./build/libdeflate.so
 
   other-arch-build-and-test:
     name: Build and test (${{ matrix.arch }}, ${{ matrix.distro }}, ${{ matrix.compiler }})
@@ -46,6 +51,11 @@ jobs:
             cmake --build build --verbose --config Release
             cmake --install build --verbose --config Release
       - run: ls ./build
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-${{matrix.arch}}
+          path: ./build/libdeflate.so
 
   macos-build-and-test:
     name: Build and test (macOS)
@@ -57,10 +67,27 @@ jobs:
     - run: cmake -B build -DLIBDEFLATE_BUILD_TESTS=1
     - run: cmake --build build --verbose
     - run: DESTDIR=build/install cmake --install build --verbose
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: macos
+        path: ./build/libdeflate.dylib
 
 
   windows-visualstudio-build-and-test:
     name: Build windows arm64
+    strategy:
+      matrix:
+        arch:
+          - amd64
+          - amd64_x86
+          - amd64_arm64
+          - win64
+          - x86_64
+          - x86_amd64
+          - x86_arm
+          - x86_arm64
+          - amd64_arm
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v4
@@ -72,3 +99,8 @@ jobs:
     - run: cmake -S . -B ./build -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang
     - run: cmake --build build --verbose --config Release
     - run: cmake --install build --verbose --config Release
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: windows-${{matrix.arch}}
+        path: ./build/libdeflate.dll
