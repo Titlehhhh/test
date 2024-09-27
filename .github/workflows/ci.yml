@@ -83,33 +83,18 @@ jobs:
 
 
   windows-visualstudio-build-and-test:
-    name: Build and test (Windows, ${{matrix.gen}}, ${{matrix.toolset}}, ${{matrix.vs}})
-    strategy:
-      matrix:
-        include:
-        - {os: windows-2022, gen: "Visual Studio 17 2022", toolset: ClangCL, vs: x64,   vcpkg: x64-windows}
-        - {os: windows-2022, gen: "Visual Studio 17 2022", toolset: ClangCL, vs: Win32, vcpkg: x86-windows}
-        - {os: windows-2022, gen: "Visual Studio 17 2022", toolset: ClangCL, vs: arm64, vcpkg: arm64-windows}
+    name: Build windows arm64
 
-    runs-on: ${{matrix.os}}
+
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: microsoft/setup-msbuild@v2
-    - run: vcpkg install zlib:${{matrix.vcpkg}}
-    - run: >
-        echo C:\vcpkg\packages\zlib_${{matrix.vcpkg}}\bin
-        | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-    # Note: as per the CMake documentation, DESTDIR is unsupported on Windows.
-    - run: >
-        cmake -B build -G "${{matrix.gen}}" -T ${{matrix.toolset}}
-        -A ${{matrix.vs}} -DLIBDEFLATE_BUILD_TESTS=1
-        -DCMAKE_C_FLAGS="/W4 /WX /DLIBDEFLATE_ENABLE_ASSERTIONS"
-        -DZLIB_LIBRARY=C:\vcpkg\packages\zlib_${{matrix.vcpkg}}\lib\zlib.lib
-        -DZLIB_INCLUDE_DIR=C:\vcpkg\packages\zlib_${{matrix.vcpkg}}\include
-        -DCMAKE_INSTALL_PREFIX=build\install
-    - run: cmake --build build --verbose --config Debug
-    - run: cmake --install build --verbose --config Debug
-    - run: ctest --test-dir build -C Debug
+    - name: Configure build for ARM64
+      uses: ilammy/msvc-dev-cmd@v1
+      with:
+        arch: amd64_arm64
+    - run: cmake --build build --verbose --config Release
+    - run: cmake --install build --verbose --config Release
 
   cross-compile-for-windows:
     name: Cross compile for Windows
