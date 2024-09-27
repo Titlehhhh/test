@@ -101,6 +101,11 @@ jobs:
     - run: cmake --install build --verbose --config Release
     - run: ls
     - run: ls build/Release
+    - name: Upload test
+      uses: actions/upload-artifact@v4
+      with:
+        name: windows-${{matrix.arch}}
+        path: build
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
