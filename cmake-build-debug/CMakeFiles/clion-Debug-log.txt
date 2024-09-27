@@ -1,0 +1,38 @@
+C:\Users\Title\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Title/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\Title\source\repos\libdeflate -B C:\Users\Title\source\repos\libdeflate\cmake-build-debug
+-- The C compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/cc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test HAVE_WDECLARATION_AFTER_STATEMENT
+-- Performing Test HAVE_WDECLARATION_AFTER_STATEMENT - Success
+-- Performing Test HAVE_WIMPLICIT_FALLTHROUGH
+-- Performing Test HAVE_WIMPLICIT_FALLTHROUGH - Success
+-- Performing Test HAVE_WMISSING_FIELD_INITIALIZERS
+-- Performing Test HAVE_WMISSING_FIELD_INITIALIZERS - Success
+-- Performing Test HAVE_WMISSING_PROTOTYPES
+-- Performing Test HAVE_WMISSING_PROTOTYPES - Success
+-- Performing Test HAVE_WPEDANTIC
+-- Performing Test HAVE_WPEDANTIC - Success
+-- Performing Test HAVE_WSHADOW
+-- Performing Test HAVE_WSHADOW - Success
+-- Performing Test HAVE_WSTRICT_PROTOTYPES
+-- Performing Test HAVE_WSTRICT_PROTOTYPES - Success
+-- Performing Test HAVE_WUNDEF
+-- Performing Test HAVE_WUNDEF - Success
+-- Performing Test HAVE_WVLA
+-- Performing Test HAVE_WVLA - Success
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for futimens
+-- Looking for futimens - not found
+-- Looking for posix_fadvise
+-- Looking for posix_fadvise - not found
+-- Looking for posix_madvise
+-- Looking for posix_madvise - not found
+-- Performing Test HAVE_STAT_NANOSECOND_PRECISION
+-- Performing Test HAVE_STAT_NANOSECOND_PRECISION - Failed
+-- Configuring done (22.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/Title/source/repos/libdeflate/cmake-build-debug
