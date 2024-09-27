@@ -97,6 +97,7 @@ jobs:
     - run: cmake -S . -B ./build -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang
     - run: cmake --build build --verbose --config Release
     - run: rename build/Release/deflate.dll libdeflate.dll
+      shell: cmd
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
