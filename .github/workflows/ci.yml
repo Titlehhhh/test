@@ -70,7 +70,6 @@ jobs:
       uses: ilammy/msvc-dev-cmd@v1
       with:
         arch: amd64_arm64
-        toolset: clang-cl
     - run: mkdir build
     - run: cmake -S . -B ./build -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang
     - run: cmake --build build --verbose --config Release
