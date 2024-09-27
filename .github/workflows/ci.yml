@@ -25,6 +25,8 @@ jobs:
     - run: sudo ./scripts/run_tests.sh
     - name: Direct compilation without official build system
       run: $CC -O2 -Wall -Werror lib/*{,/*}.c programs/{gzip,prog_util,tgetopt}.c -o libdeflate-gzip
+    - name: LS
+      run: ls
 
   other-arch-build-and-test:
     name: Build and test (${{ matrix.arch }}, ${{ matrix.distro }}, ${{ matrix.compiler }})
