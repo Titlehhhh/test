@@ -103,4 +103,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: windows-${{matrix.arch}}
-        path: ./build/libdeflate.dll
+        path: build/libdeflate.dll
+        if-no-files-found: 'error'
