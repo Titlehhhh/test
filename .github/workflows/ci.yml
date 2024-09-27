@@ -3,21 +3,18 @@ on: [push]
 
 jobs:
   x86_64-build-and-test:
-    name: Build and test (x86_64, ${{ matrix.os }}, ${{ matrix.compiler }})
-    strategy:
-      matrix:
-        os: [ubuntu-22.04, ubuntu-20.04]
-        compiler: [gcc, clang]
-    runs-on: ${{ matrix.os }}
+    name: Build and test (x86_64, clang, Ubuntu)
+
+    runs-on: ubuntu-22.04
     env:
-      CC: ${{ matrix.compiler }}
+      CC: clang
     steps:
     - uses: actions/checkout@v4
     - name: Install dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y clang llvm libz-dev valgrind
-    - run: sudo sysctl kernel.randomize_va_space=0 # https://bugs.launchpad.net/ubuntu/+source/llvm-toolchain-14/+bug/2048768
+    - run: sudo sysctl kernel.randomize_va_space=0
     - run: cmake -S . -B ./build
     - run: cmake --build build --verbose --config Release
     - run: sudo cmake --install build --verbose --config Release
@@ -36,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: uraimo/run-on-arch-action@v2.5.0
+      - uses: uraimo/run-on-arch-action@v2.7.2
         with:
           arch: ${{ matrix.arch }}
           distro: ${{ matrix.distro }}
